@@ -1,6 +1,7 @@
 from pynput.keyboard import Listener
 from datetime import datetime, timedelta
 
+
 special = {
     "<96>": 0,
     "<97>": 1,
