@@ -1,4 +1,3 @@
-''''
 from pynput.keyboard import Listener
 from datetime import datetime, timedelta
 
@@ -40,4 +39,3 @@ def on_release(key):
 
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
-'''
